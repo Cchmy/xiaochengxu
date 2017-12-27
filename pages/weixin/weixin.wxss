@@ -1,0 +1,43 @@
+.searchbar-result{
+    margin-top: 0;
+    font-size: 14px;
+}
+.searchbar-result:before{
+    display: none;
+}
+.weui-cell{
+    padding: 12px 15px 12px 35px;
+}
+
+.content{
+  width: 100%;
+  height: 60px;
+  display: flex;
+  margin:3px;
+  border-bottom: 1px solid gainsboro;
+  padding: 3px;
+}
+
+.content .left{
+  height: 100%;
+  width: 20%;
+  background: gainsboro;
+  border-radius: 5px;
+  text-align: center;
+}
+.content .left image{
+  width: 80%;
+  height: 60px;
+}  
+.content .mid{
+  height: 100%;
+  width: 58%;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  margin-left: 2%;
+}
+.content .right{
+  height: 100%;  
+  width: 20%;
+}

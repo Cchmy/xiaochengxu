@@ -1,0 +1,29 @@
+
+<view>
+  <view class='content'>
+      <image src='../images/01.png'></image>
+      <text>新的朋友</text>
+  </view> 
+    <view class='content'>
+      <image src='../images/03.png'></image>
+      <text>群聊</text>
+  </view> 
+    <view class='content'>
+      <image src='../images/05.png'></image>
+      <text>标签</text>
+  </view> 
+    <view class='content'>
+      <image src='../images/02.png'></image>
+      <text>公众号</text>
+  </view> 
+
+  <view class='A'>A</view>
+  
+
+  <view class='content'>
+      <image src='../images/06.png'></image>
+      <text>A_cc</text>
+  </view> 
+
+
+</view>

@@ -1,0 +1,33 @@
+<view class='cover'>
+  <view class='title'> TFBOYS </view>
+
+  <view class='input-panel'>
+    <view class='input-name'>
+      <input type='text' bindinput='bindKeyInput' value='{{name}}'></input>
+    </view>
+    <view class='input-age'>
+      <input type='number' bindinput='bindKeyInputAge' value='{{age}}'></input>
+    </view>
+    <view class='btn' bindtap='addhero'>
+      <button>添加英雄</button>
+    </view>
+  </view>
+
+  <view class='list'>
+
+    <!-- navigator 实现页面跳转 地址写在url属性上 -->
+    <!-- <navigator wx:for="{{tfboys}}" url='../detail/detail?name={{item.name}}&&age={{item.age}}'> -->
+    <view class='list-item' wx:for="{{movies}}" wx:key="cc">
+      <image class='item-cover' src="{{item.cover}}" mode="aspectFit"></image>
+      <view class='item-name'>{{item.title}}</view>
+      <view class='item-age'>{{item.rate}}</view>
+      <button bindtap='deletehero'>删除</button>
+    </view>
+    <!-- </navigator> -->
+
+  </view>
+
+
+
+
+</view>

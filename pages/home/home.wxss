@@ -1,0 +1,48 @@
+/* pages/home/home.wxss */
+
+.cover{
+  text-align: center;
+}
+
+.title{
+  font-size: 60rpx;
+}
+
+.list-item{
+  display: flex;
+  flex-direction: row;
+  background: white;
+  margin-top: 2px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+}
+
+
+page{
+  background: #eee;
+}
+
+.input-panel{
+  display: flex;
+  background: #fff;
+}
+
+.input-panel .input-name{
+  flex: 1;
+  border-right: solid 1px #aaa;
+}
+
+.input-panel .input-age{
+  flex:1;
+}
+
+
+
+.input-panel  input{
+  height: 100%;
+  font-size: 24px;
+}
+.input-panel .btn{
+  flex: 1;
+}

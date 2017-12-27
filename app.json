@@ -1,0 +1,48 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/todo/todo",
+    "pages/home/home",
+    "pages/detail/detail",
+    "pages/weixin/weixin",
+    "pages/cc/cc"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar":{
+    "borderStyle":"black",
+    "selectedColor":"green",
+    "backgroundColor":"gainsboro",
+    "list":[
+      {
+        "pagePath": "pages/index/index",
+        "text":"index",
+        "selectedIconPath":"pages/images/01.png",
+        "iconPath":"pages/images/02.png"
+      },
+      {
+        "pagePath": "pages/home/home",
+        "text":"home",
+        "selectedIconPath": "pages/images/05.png",
+        "iconPath": "pages/images/06.png"
+      },
+      {
+        "pagePath": "pages/todo/todo",
+        "text":"通讯录",
+        "selectedIconPath": "pages/images/03.png",
+        "iconPath": "pages/images/04.png"
+      },
+      {
+        "pagePath": "pages/weixin/weixin",
+        "text": "微信",
+        "selectedIconPath": "pages/images/01.png",
+        "iconPath": "pages/images/02.png"
+      }
+    ]
+  }
+}

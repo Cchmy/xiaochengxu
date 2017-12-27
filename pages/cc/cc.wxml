@@ -1,0 +1,6 @@
+<view>
+  <view class='content'>
+  <image src='{{singer.img}}' class='left'></image>
+    <view class='right'>{{singer.text}}</view>
+  </view>
+</view> 
